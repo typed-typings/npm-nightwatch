@@ -1,2 +1,2 @@
-# npm-nightwatch
-Type Definitions for NightwatchJS
+# typed-nightwatch
+Type Definitions for [`NightwatchJS`](http://nightwatchjs.org/)
