@@ -2,11 +2,8 @@
 // Project: http://nightwatchjs.org/api
 // Definitions by: Rahul Kavalapara
 
-///<reference path="custom-commands.d.ts"/>
-///<reference path="page-objects.d.ts"/>
-
-import {NightWatchCustomCommands} from "custom-commands";
-import {NightWatchCustomPageObjects} from "page-objects";
+import {NightWatchCustomCommands} from "./custom-commands";
+import {NightWatchCustomPageObjects} from "./page-objects";
 
 export interface DesiredCapabilities
 {
