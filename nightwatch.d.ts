@@ -2142,6 +2142,13 @@ export interface NightWatchClient {
     windowHandles: (callback?: (result: CallbackResult) => void) => NightWatchBrowser;
 
     /**
+     * Retrieve the list of all window handles available to the session.
+     * @param callback: Optional callback function to be called when the command finishes. 
+     * @returns {} 
+     */
+    window_handles: (callback?: (result: CallbackResult) => void) => NightWatchBrowser;
+
+    /**
      * Retrieve the current window handle.
      * @param handleOrName: windowHandle URL parameter; if it is "current", the currently active window will be maximized.
      * @param callback: Optional callback function to be called when the command finishes. 
